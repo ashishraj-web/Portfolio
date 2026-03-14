@@ -30,27 +30,57 @@ body {
     z-index: 1000;
 }
 
-.logo { font-size: 1.5rem; font-weight: bold; }
-.logo span { color: var(--primary-color); }
+.logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
 
-.nav-links { list-style: none; display: flex; }
-.nav-links li { margin-left: 2rem; }
-.nav-links a { text-decoration: none; color: white; transition: 0.3s; }
-.nav-links a:hover { color: var(--primary-color); }
+.logo span {
+    color: var(--primary-color);
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+}
+
+.nav-links li {
+    margin-left: 2rem;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: white;
+    transition: 0.3s;
+}
+
+.nav-links a:hover {
+    color: var(--primary-color);
+}
 
 /* Sections */
-.container { padding: 5rem 10%; text-align: center; }
+.container {
+    padding: 5rem 10%;
+    text-align: center;
+}
+
 .hero {
     height: 100vh;
     display: flex;
     align-items: center;
     justify-content: center;
-    background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('https://images.unsplash.com/photo-1517694712202-14dd9538aa97?auto=format&fit=crop&w=1350&q=80');
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('https://images.unsplash.com/photo-1517694712202-14dd9538aa97?auto=format&fit=crop&w=1350&q=80');
     background-size: cover;
 }
 
-.highlight { color: var(--primary-color); }
-.section-title { margin-bottom: 2rem; font-size: 2.5rem; }
+.highlight {
+    color: var(--primary-color);
+}
+
+.section-title {
+    margin-bottom: 2rem;
+    font-size: 2.5rem;
+}
 
 /* Skills Grid */
 .skills-grid {
@@ -66,8 +96,16 @@ body {
     transition: transform 0.3s;
 }
 
-.skill-card:hover { transform: translateY(-10px); border: 1px solid var(--primary-color); }
-.skill-card i { font-size: 3rem; color: var(--primary-color); margin-bottom: 1rem; }
+.skill-card:hover {
+    transform: translateY(-10px);
+    border: 1px solid var(--primary-color);
+}
+
+.skill-card i {
+    font-size: 3rem;
+    color: var(--primary-color);
+    margin-bottom: 1rem;
+}
 
 /* Contact Links */
 .social-links a {
@@ -81,6 +119,13 @@ body {
     transition: 0.3s;
 }
 
-.social-links a:hover { background: var(--primary-color); color: var(--bg-dark); }
+.social-links a:hover {
+    background: var(--primary-color);
+    color: var(--bg-dark);
+}
 
-footer { text-align: center; padding: 2rem; background: #070b14; }
+footer {
+    text-align: center;
+    padding: 2rem;
+    background: #070b14;
+}

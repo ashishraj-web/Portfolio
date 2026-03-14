@@ -1,8 +1,8 @@
 document.addEventListener('DOMContentLoaded', () => {
     console.log("Portfolio Loaded Successfully");
-    
+
     const links = document.querySelectorAll('.nav-links a');
-    
+
     links.forEach(link => {
         link.addEventListener('click', (e) => {
             console.log(`Navigating to ${link.getAttribute('href')}`);
@@ -10,7 +10,7 @@ document.addEventListener('DOMContentLoaded', () => {
     });
 });
 
-window.onscroll = function() {
+window.onscroll = function () {
     const nav = document.querySelector('.navbar');
     if (window.pageYOffset > 50) {
         nav.style.background = "#070b14";
